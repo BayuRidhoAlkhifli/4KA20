@@ -26,7 +26,7 @@ margin:1% 30%
     color:white;
 }
 #table tr:nth-child(even){
-	background-color: #f2f2f2
+	background-color: #f2f2f2;
 }
 #table th,td{
 	text-align:left;
@@ -61,5 +61,9 @@ margin:1% 30%
 }
 #form input[type=submit]:hover{
     background-color:#16a085;
+}
+.error_form{
+	font-size: 12px;
+	color: red;
 }
 /**Form**/
