@@ -1,12 +1,28 @@
+html{
+	background: url('design/sduLRvf.jpg') no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	width: 100%;
+	height: 100%;
+}
 body{
 	margin:0;
 	padding:0;
 	font-family:"Arial";
+	height: 100%;
 }
 /**Conten**/
 #content{
-	width:auto;
-	height:auto;
+	left: 32%;
+	width:28%;
+	height: auto;
+	vertical-align: middle;
+	position: absolute;
+	padding: 10px 50px 30px 50px;
+	background: rgba(0, 0, 0,0.5);
+	float: inherit;
+	color: white;
 }
 /**Table**/
 #table{
@@ -37,12 +53,13 @@ margin:1% 30%
 }
 /**Table**/
 /**Form**/
-#form{
+.form{
 	text-align:left;
-	width:36%;
-	margin-top:2%;
+	width:100%;
+	height: 100%;
+	top:50%;
 }
-#form input[type=text]{
+.form input[type=text]{
     width:100%;
     padding:12px 20px;
     margin:8px 0;
@@ -50,7 +67,15 @@ margin:1% 30%
     border:1px solid #ccc;
     box-sizing:border-box;
 }
-#form input[type=submit]{
+.form input[type=password]{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+.form input[type=submit]{
     width:100%;
     background-color:#1abc9c;
     color:white;
@@ -59,10 +84,14 @@ margin:1% 30%
     border:none;
     cursor:pointer;
 }
-#form input[type=submit]:hover{
+.form input[type=submit]:hover{
     background-color:#16a085;
 }
+.form a{
+	text-decoration: none;
+}
 .error_form{
+	text-align: center;
 	font-size: 12px;
 	color: red;
 }

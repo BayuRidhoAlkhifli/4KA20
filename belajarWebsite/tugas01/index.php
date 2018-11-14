@@ -7,12 +7,9 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<div id="content">
-			<center>
-				<?php include "content/table.php";?>
-				<?php include "content/form.php";?>
-			</center>
-		</div>
-		<script src="../js/script.js"></script>
+			<div id="content">
+					<?php include "content/form.php";?>
+			</div>
+		<!--<script src="../js/script.js"></script>-->
 	</body>
 </html>
